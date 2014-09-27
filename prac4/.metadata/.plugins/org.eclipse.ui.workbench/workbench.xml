@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="0" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="175" y="0">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="158"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="com.genuitec.eclipse.uml.actions" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.genuitec.eclipse.web20.actionset" itemType="typeToolBarContribution" x="38" y="22"/>
+<coolItem id="com.genuitec.eclipse.ws.xfire.actions" itemType="typeToolBarContribution" x="95" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.deploytools" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.desktop" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.reporting" itemType="typeToolBarContribution" x="78" y="22"/>
+<coolItem id="com.genuitec.myeclipse.actions.screencapture" itemType="typeToolBarContribution" x="55" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="175" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="101" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="61" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="198" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" itemType="typePlaceholder" x="38" y="22"/>
+<coolItem id="com.genuitec.eclipse.webdesigner3.editors.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.genuitec.eclipse.webdesigner3.editors.jsp" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1400948345305" focus="true" label="Workspace - MyEclipse Java Enterprise">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
+<part id="18"/>
+<part id="19"/>
+<part id="20"/>
+<part id="21"/>
+<part id="22"/>
+<part id="23"/>
+<part id="24"/>
+<part id="25"/>
+<part id="26"/>
+<part id="27"/>
+<part id="28"/>
+<part id="29"/>
+<part id="30"/>
+<part id="31"/>
+<part id="32"/>
+<part id="33"/>
+<part id="34"/>
+<part id="35"/>
+<part id="36"/>
+<part id="37"/>
+<part id="38"/>
+<part id="39"/>
+<part id="40"/>
+<part id="41"/>
+<part id="42"/>
+<part id="43"/>
+</presentation>
+</folder>
+</info>
+</editorArea>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractHomeBean.java" partName="AbstractHomeBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/AbstractHomeBean.java" title="AbstractHomeBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/AbstractHomeBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/AbstractHomeBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataBean.java" partName="DataBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/DataBean.java" title="DataBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/DataBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/DataBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="320" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileBean.java" partName="FileBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/FileBean.java" title="FileBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/FileBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/FileBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="6" selectionOffset="689" selectionTopPixel="285"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Files.java" partName="Files.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/Files.java" title="Files.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/Files.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/Files.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="151" selectionTopPixel="58"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HomeBeanMobile.java" partName="HomeBeanMobile.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/HomeBeanMobile.java" title="HomeBeanMobile.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/HomeBeanMobile.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/HomeBeanMobile.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="329" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HtmlDispatcherBean.java" partName="HtmlDispatcherBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/HtmlDispatcherBean.java" title="HtmlDispatcherBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/HtmlDispatcherBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/HtmlDispatcherBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="64" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IndexBean.java" partName="IndexBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/IndexBean.java" title="IndexBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/IndexBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/IndexBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="59" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ItemBean.java" partName="ItemBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/ItemBean.java" title="ItemBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/ItemBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/ItemBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="424" selectionTopPixel="653"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ListContainer.java" partName="ListContainer.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/ListContainer.java" title="ListContainer.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/ListContainer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/ListContainer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="281" selectionTopPixel="92"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RegisterBean.java" partName="RegisterBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/RegisterBean.java" title="RegisterBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/RegisterBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/RegisterBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="237" selectionTopPixel="58"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SchoolBean.java" partName="SchoolBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/SchoolBean.java" title="SchoolBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/SchoolBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/SchoolBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="449"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Steps.java" partName="Steps.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/Steps.java" title="Steps.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/Steps.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/Steps.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserBean.java" partName="UserBean.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/UserBean.java" title="UserBean.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/UserBean.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/UserBean.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="473" selectionTopPixel="891"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LogonSession.java" partName="LogonSession.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/bean/mongo/LogonSession.java" title="LogonSession.java" tooltip="prac4/src/src/main/java/niuzhixiang/bean/mongo/LogonSession.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/bean/mongo/LogonSession.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="179" selectionTopPixel="245"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Configuration.java" partName="Configuration.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/config/Configuration.java" title="Configuration.java" tooltip="prac4/src/src/main/java/niuzhixiang/config/Configuration.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/config/Configuration.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="96" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ConfigurationProcessor.java" partName="ConfigurationProcessor.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/config/ConfigurationProcessor.java" title="ConfigurationProcessor.java" tooltip="prac4/src/src/main/java/niuzhixiang/config/ConfigurationProcessor.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/config/ConfigurationProcessor.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2098" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Status.java" partName="Status.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/global/Status.java" title="Status.java" tooltip="prac4/src/src/main/java/niuzhixiang/global/Status.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/global/Status.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="121" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataDao.java" partName="DataDao.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/dao/DataDao.java" title="DataDao.java" tooltip="prac4/src/src/main/java/niuzhixiang/dao/DataDao.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/dao/DataDao.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="224" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDao.java" partName="FileDao.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/dao/FileDao.java" title="FileDao.java" tooltip="prac4/src/src/main/java/niuzhixiang/dao/FileDao.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/dao/FileDao.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2023" selectionTopPixel="590"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ItemDao.java" partName="ItemDao.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/dao/ItemDao.java" title="ItemDao.java" tooltip="prac4/src/src/main/java/niuzhixiang/dao/ItemDao.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/dao/ItemDao.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="659" selectionTopPixel="165"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SchoolDao.java" partName="SchoolDao.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/dao/SchoolDao.java" title="SchoolDao.java" tooltip="prac4/src/src/main/java/niuzhixiang/dao/SchoolDao.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/dao/SchoolDao.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="827" selectionTopPixel="12"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserDao.java" partName="UserDao.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/dao/UserDao.java" title="UserDao.java" tooltip="prac4/src/src/main/java/niuzhixiang/dao/UserDao.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/dao/UserDao.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4153" selectionTopPixel="1678"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorityFilter.java" partName="AuthorityFilter.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/filter/AuthorityFilter.java" title="AuthorityFilter.java" tooltip="prac4/src/src/main/java/niuzhixiang/filter/AuthorityFilter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/filter/AuthorityFilter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3009" selectionTopPixel="726"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AutoLogonFilter.java" partName="AutoLogonFilter.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/filter/AutoLogonFilter.java" title="AutoLogonFilter.java" tooltip="prac4/src/src/main/java/niuzhixiang/filter/AutoLogonFilter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/filter/AutoLogonFilter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2171" selectionTopPixel="403"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HomeRedirectFilter.java" partName="HomeRedirectFilter.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/filter/HomeRedirectFilter.java" title="HomeRedirectFilter.java" tooltip="prac4/src/src/main/java/niuzhixiang/filter/HomeRedirectFilter.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/filter/HomeRedirectFilter.java"/>
+<editorState selectionHorizontalPixel="13" selectionLength="0" selectionOffset="1466" selectionTopPixel="250"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorityService.java" partName="AuthorityService.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/service/AuthorityService.java" title="AuthorityService.java" tooltip="prac4/src/src/main/java/niuzhixiang/service/AuthorityService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/service/AuthorityService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4130" selectionTopPixel="1729"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HtmlDispatcherService.java" partName="HtmlDispatcherService.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/service/HtmlDispatcherService.java" title="HtmlDispatcherService.java" tooltip="prac4/src/src/main/java/niuzhixiang/service/HtmlDispatcherService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/service/HtmlDispatcherService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="374" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="HomeService.java" partName="HomeService.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/service/HomeService.java" title="HomeService.java" tooltip="prac4/src/src/main/java/niuzhixiang/service/HomeService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/service/HomeService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3945" selectionTopPixel="1355"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ItemService.java" partName="ItemService.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/service/ItemService.java" title="ItemService.java" tooltip="prac4/src/src/main/java/niuzhixiang/service/ItemService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/service/ItemService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="405" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadService.java" partName="UploadService.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/service/UploadService.java" title="UploadService.java" tooltip="prac4/src/src/main/java/niuzhixiang/service/UploadService.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/service/UploadService.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2109" selectionTopPixel="386"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Multipart.java" partName="Multipart.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/util/Multipart.java" title="Multipart.java" tooltip="prac4/src/src/main/java/niuzhixiang/util/Multipart.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/util/Multipart.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4113" selectionTopPixel="1457"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MongoDaoTest.java" partName="MongoDaoTest.java" path="D:/项目/practce/prac4/prac4/src/src/test/java/niuzhixiang/test/dao/MongoDaoTest.java" title="MongoDaoTest.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/dao/MongoDaoTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/test/java/niuzhixiang/test/dao/MongoDaoTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1341" selectionTopPixel="80"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserDaoTest.java" partName="UserDaoTest.java" path="D:/项目/practce/prac4/prac4/src/src/test/java/niuzhixiang/test/dao/UserDaoTest.java" title="UserDaoTest.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/dao/UserDaoTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/test/java/niuzhixiang/test/dao/UserDaoTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="929" selectionTopPixel="63"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Utils.java" partName="Utils.java" path="D:/项目/practce/prac4/prac4/src/src/main/java/niuzhixiang/util/Utils.java" title="Utils.java" tooltip="prac4/src/src/main/java/niuzhixiang/util/Utils.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/java/niuzhixiang/util/Utils.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="585" selectionTopPixel="80"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorityFilterTest.java" partName="AuthorityFilterTest.java" path="D:/项目/practce/prac4/prac4/src/src/test/java/niuzhixiang/test/filter/AuthorityFilterTest.java" title="AuthorityFilterTest.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/filter/AuthorityFilterTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/test/java/niuzhixiang/test/filter/AuthorityFilterTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="72" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorityServiceTest.java" partName="AuthorityServiceTest.java" path="D:/项目/practce/prac4/prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest.java" title="AuthorityServiceTest.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1083" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorityServiceTest2.java" partName="AuthorityServiceTest2.java" path="D:/项目/practce/prac4/prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest2.java" title="AuthorityServiceTest2.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest2.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1500" selectionTopPixel="352"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="home.jsp" partName="home.jsp" path="D:/项目/practce/prac4/prac4/src/target/MyREST_Maven/WEB-INF/jsp/home.jsp" title="home.jsp" tooltip="prac4/src/target/MyREST_Maven/WEB-INF/jsp/home.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/target/MyREST_Maven/WEB-INF/jsp/home.jsp"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" partName="web.xml" path="D:/项目/practce/prac4/prac4/src/target/MyREST_Maven/WEB-INF/web.xml" title="web.xml" tooltip="prac4/src/target/MyREST_Maven/WEB-INF/web.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/target/MyREST_Maven/WEB-INF/web.xml"/>
+</editor>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="config.xml" partName="config.xml" path="D:/项目/practce/prac4/prac4/src/target/MyREST_Maven/WEB-INF/classes/config.xml" title="config.xml" tooltip="prac4/src/target/MyREST_Maven/WEB-INF/classes/config.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/target/MyREST_Maven/WEB-INF/classes/config.xml"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="home.js" partName="home.js" path="D:/项目/practce/prac4/prac4/src/js/home.js" title="home.js" tooltip="prac4/src/js/home.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/js/home.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.html" name="event_bubble.html" partName="event_bubble.html" path="D:/项目/practce/prac4/prac4/src/html/event_bubble.html" title="event_bubble.html" tooltip="prac4/src/html/event_bubble.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/html/event_bubble.html"/>
+</editor>
+<editor id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="jquery-1.9.1.js" partName="jquery-1.9.1.js" path="D:/项目/practce/prac4/prac4/src/js/jquery-1.9.1.js" title="jquery-1.9.1.js" tooltip="prac4/src/js/jquery-1.9.1.js" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/js/jquery-1.9.1.js"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="306" selectionTopPixel="2601"/>
+</editor>
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.html" name="html_dispatcher.html" partName="html_dispatcher.html" path="D:/项目/practce/prac4/prac4/src/src/main/webapp/WEB-INF/html/html_dispatcher.html" title="html_dispatcher.html" tooltip="prac4/src/src/main/webapp/WEB-INF/html/html_dispatcher.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/prac4/src/src/main/webapp/WEB-INF/html/html_dispatcher.html"/>
+</editor>
+</editors>
+<views>
+<view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers"/>
+<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy">
+<viewState hidefields="false" hidelocaltypes="false" hidenonpublic="false" hidestatic="false" link_editors="0" mv_vertical_scroll="0" orientation="3" qualified_names="0" ratio="350" showinherited="false" sortbydefiningtype="false" vertical_scroll="0" view="2" workingSetName=""/>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="94" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.maven.ide.eclipse.MavenModuleFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
+</views>
+<perspectives activePart="com.genuitec.eclipse.webdesigner3.editors.html" activePerspective="com.genuitec.myeclipse.perspective.myeclipseperspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="com.genuitec.myeclipse.perspective.MyEclipsePerspectiveFactory" id="com.genuitec.myeclipse.perspective.myeclipseperspective" label="MyEclipse Java Enterprise"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.test.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.desktop"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.screencapture"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.examples.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.hibernatetools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.intro.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webtools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.j2eedt.core.ejb"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jsftools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.faceletstools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.maven.pro.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jpatools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.portlet.portletactions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.springtools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.strutstools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.tapestrytools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.restsupport"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.ws.xfire.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webservices"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.about.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.product.actions"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.uml.actions"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.uml2.ui.actions"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
+<show_view_action id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="uky.article.imageviewer.views.ImageView"/>
+<show_view_action id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="com.genuitec.eclipse.ui.HTMLView"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.EJBProjectCreationWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.NewEARProjectWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.WebProjectCreationWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.ws.xfire.wizards.NewXFireWebProjectWizard1"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="com.aston.wizards.applet.NewAppletCreationWizard"/>
+<new_wizard_action id="com.aston.wizards.html.NewHtmlCreationWizard"/>
+<new_wizard_action id="com.aston.wizards.jsp.NewJspCreationWizard"/>
+<new_wizard_action id="com.aston.wizards.xhtml.NewXhtmlCreationWizard"/>
+<new_wizard_action id="com.aston.wizards.servlet.NewServletCreationWizard"/>
+<new_wizard_action id="org.jboss.ide.eclipse.jdt.j2ee.ui.wizards.ejb.NewSessionEJBWizard"/>
+<new_wizard_action id="org.jboss.ide.eclipse.jdt.j2ee.ui.wizards.ejb.NewEntityEJBWizard"/>
+<new_wizard_action id="org.jboss.ide.eclipse.jdt.j2ee.ui.wizards.ejb.NewMessageDrivenEJBWizard"/>
+<new_wizard_action id="com.aston.wizards.xml.NewXmlCreationWizard"/>
+<new_wizard_action id="org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard"/>
+<new_wizard_action id="org.eclipse.wst.xsd.ui.internal.wizards.NewXSDWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.struts.org.easystruts.eclipse.wizards.NewFormCreationWizardX1_1"/>
+<new_wizard_action id="com.genuitec.eclipse.struts.org.easystruts.eclipse.wizards.NewActionCreationWizardX1_1"/>
+<new_wizard_action id="com.genuitec.eclipse.dehory.newformwizard"/>
+<new_wizard_action id="com.genuitec.eclipse.reporting.projectwizard"/>
+<new_wizard_action id="com.genuitec.eclipse.uml.wizard.NewUMLModelFileWizard"/>
+<perspective_action id="com.genuitec.eclipse.dehory.dehoryperspective"/>
+<perspective_action id="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective"/>
+<perspective_action id="com.genuitec.eclipse.imageeditor.perspective"/>
+<perspective_action id="org.eclipse.wst.jsdt.ui.JavaPerspective"/>
+<perspective_action id="com.genuitec.dali.adapter.persistencePerspective"/>
+<perspective_action id="com.genuitec.eclipse.reporting.ReportPerspective"/>
+<perspective_action id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>
+<perspective_action id="com.genuitec.eclipse.uml.umlPerspective"/>
+<perspective_action id="com.genuitec.eclipse.web20.perspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="uky.article.imageviewer.views.ImageView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="com.genuitec.eclipse.ui.HTMLView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="com.genuitec.eclipse.ast.deploy.core.serverview"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="cvslocation">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="LabelNotFound"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="cvslocation">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.1800738" ratioLeft="244" ratioRight="1111" relationship="2" relative="cvslocation"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b5c12e" ratio="0.75" ratioLeft="600" ratioRight="200" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@9dc1bb" ratio="0.54868627" ratioLeft="355" ratioRight="292" relationship="4" relative="org.eclipse.ui.internal.ViewStack@b5c12e">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottom" ratio="0.7496136" ratioLeft="485" ratioRight="162" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="com.genuitec.eclipse.ui.HTMLView" label="Web Browser"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="com.genuitec.eclipse.ast.deploy.core.serverview" label="Servers"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="topleft" ratio="0.39876354" ratioLeft="258" ratioRight="389" relationship="4" relative="cvslocation">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="bottomleft" ratio="0.9169279" ratioLeft="585" ratioRight="53" relationship="4" relative="topleft">
+<folder activePageID="uky.article.imageviewer.views.ImageView" appearance="2" expanded="2">
+<page content="uky.article.imageviewer.views.ImageView" label="Image Preview"/>
+<page content="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.deploytools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.test.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.desktop"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.screencapture"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.examples.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.hibernatetools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.intro.actionSet"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webtools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.j2eedt.core.ejb"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jsftools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.faceletstools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.maven.pro.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.jpatools"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.portlet.portletactions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.reporting"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.springtools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.strutstools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.tapestrytools"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.restsupport"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.ws.xfire.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.actions.webservices"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.icefaces"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.about.actions"/>
+<alwaysOnActionSet id="com.genuitec.myeclipse.product.actions"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.ui.navigation"/>
+<alwaysOnActionSet id="org.maven.ide.eclipse.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.aop.ui.matcher.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.actionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.ui.ActionSet"/>
+<alwaysOnActionSet id="org.springframework.ide.eclipse.beans.search.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="com.genuitec.eclipse.web20.actionset"/>
+<alwaysOnActionSet id="fr.obeo.acceleo.gen.ui.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<show_view_action id="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator"/>
+<show_view_action id="org.springframework.ide.eclipse.aop.ui.tracing.eventTraceView"/>
+<show_view_action id="org.springframework.ide.eclipse.ui.navigator.springExplorer"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.reporting.projectwizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.EJBProjectCreationWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.NewEARProjectWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.j2eedt.ui.wizard.WebProjectCreationWizard"/>
+<new_wizard_action id="com.genuitec.eclipse.ws.xfire.wizards.NewXFireWebProjectWizard1"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.ide.wizards.NewReportWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.ide.wizards.NewTemplateWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.wizards.NewLibraryWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="com.genuitec.eclipse.dehory.dehoryperspective"/>
+<perspective_action id="com.genuitec.eclipse.hibernate.perspective.HibernatePerspective"/>
+<perspective_action id="com.genuitec.eclipse.imageeditor.perspective"/>
+<perspective_action id="com.genuitec.dali.adapter.persistencePerspective"/>
+<perspective_action id="com.genuitec.eclipse.reporting.ReportPerspective"/>
+<perspective_action id="com.genuitec.eclipse.sqlexplorer.perspectives.SQLExplorerPluginPerspective"/>
+<perspective_action id="com.genuitec.eclipse.uml.umlPerspective"/>
+<perspective_action id="com.genuitec.myeclipse.perspective.myeclipseperspective"/>
+<perspective_action id="com.genuitec.eclipse.web20.perspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.7488" ratioLeft="468" ratioRight="157" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.jdt.ui.JavadocView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7493333" ratioLeft="562" ratioRight="188" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator" ratio="0.5" ratioLeft="234" ratioRight="234" relationship="4" relative="right"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b07e43" ratio="0.5" ratioLeft="234" ratioRight="234" relationship="4" relative="right">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.springframework.ide.eclipse.ui.navigator.springExplorer" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/config/ConfigurationProcessor.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/dao/ItemDao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/dao/SchoolDao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/dao/UserDao.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/filter/AuthorityFilter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" path="/prac4/src/target/MyREST_Maven/WEB-INF/classes/niuzhixiang/bean/AbstractHomeBean.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" path="/prac4/src/target/MyREST_Maven/WEB-INF/classes/niuzhixiang/bean/HomeBeanMobile.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/filter/AutoLogonFilter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/filter/HomeRedirectFilter.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/global/Status.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/service/AuthorityService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/service/HtmlDispatcherService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/service/HomeService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/service/ItemService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/service/UploadService.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/util/Multipart.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/test/java/niuzhixiang/test/dao/MongoDaoTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/test/java/niuzhixiang/test/dao/UserDaoTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/main/java/niuzhixiang/util/Utils.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/test/java/niuzhixiang/test/filter/AuthorityFilterTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest2.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/prac4/src/target/MyREST_Maven/WEB-INF/jsp/home.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/prac4/src/target/MyREST_Maven/WEB-INF/web.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/prac4/src/target/MyREST_Maven/WEB-INF/classes/config.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/prac4/src/js/home.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" path="/prac4/src/html/event_bubble.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/prac4/src/js/jquery-1.9.1.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" path="/prac4/src/src/main/webapp/WEB-INF/html/html_dispatcher.html"/>
+<editor factoryID="org.jboss.tools.common.core.resources.XModelObjectEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" path="/prac4/src/target/maven-archiver/pom.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/prac4/src/target/MyREST_Maven.war"/>
+</editors>
+<item historyLabel="ConfigurationProcessor.java" index="0">
+<position info="not_deleted" x="2098" y="0"/>
+</item>
+<item historyLabel="ItemDao.java" index="1">
+<position info="not_deleted" x="659" y="0"/>
+</item>
+<item historyLabel="SchoolDao.java" index="2">
+<position info="not_deleted" x="827" y="0"/>
+</item>
+<item historyLabel="UserDao.java" index="3">
+<position info="not_deleted" x="4153" y="0"/>
+</item>
+<item historyLabel="AuthorityFilter.java" index="4">
+<position info="not_deleted" x="2537" y="16"/>
+</item>
+<item historyLabel="AbstractHomeBean.class" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HomeBeanMobile.class" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AuthorityFilter.java" index="4">
+<position info="not_deleted" x="1023" y="0"/>
+</item>
+<item historyLabel="AutoLogonFilter.java" index="7">
+<position info="not_deleted" x="2171" y="0"/>
+</item>
+<item historyLabel="HomeRedirectFilter.java" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Status.java" index="9">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="AuthorityService.java" index="10">
+<position info="not_deleted" x="2120" y="0"/>
+</item>
+<item historyLabel="HtmlDispatcherService.java" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HomeService.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ItemService.java" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="HomeService.java" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AuthorityService.java" index="10">
+<position info="not_deleted" x="4374" y="0"/>
+</item>
+<item historyLabel="HomeService.java" index="12">
+<position info="not_deleted" x="3970" y="0"/>
+</item>
+<item historyLabel="AuthorityService.java" index="10">
+<position info="not_deleted" x="903" y="0"/>
+</item>
+<item historyLabel="AuthorityFilter.java" index="4">
+<position info="not_deleted" x="3009" y="0"/>
+</item>
+<item historyLabel="Status.java" index="9">
+<position info="not_deleted" x="121" y="0"/>
+</item>
+<item historyLabel="AuthorityService.java" index="10">
+<position info="not_deleted" x="4130" y="0"/>
+</item>
+<item historyLabel="HomeService.java" index="12">
+<position info="not_deleted" x="3945" y="0"/>
+</item>
+<item historyLabel="HtmlDispatcherService.java" index="11">
+<position info="not_deleted" x="374" y="0"/>
+</item>
+<item historyLabel="ItemService.java" index="13">
+<position info="not_deleted" x="405" y="0"/>
+</item>
+<item historyLabel="UploadService.java" index="14">
+<position info="not_deleted" x="2109" y="0"/>
+</item>
+<item historyLabel="Multipart.java" index="15">
+<position info="not_deleted" x="1520" y="0"/>
+</item>
+<item historyLabel="MongoDaoTest.java" index="16">
+<position info="not_deleted" x="1102" y="0"/>
+</item>
+<item historyLabel="UserDaoTest.java" index="17">
+<position info="not_deleted" x="1102" y="0"/>
+</item>
+<item historyLabel="Multipart.java" index="15">
+<position info="not_deleted" x="4113" y="0"/>
+</item>
+<item historyLabel="Utils.java" index="18">
+<position info="not_deleted" x="585" y="0"/>
+</item>
+<item historyLabel="MongoDaoTest.java" index="16">
+<position info="not_deleted" x="1341" y="0"/>
+</item>
+<item historyLabel="UserDaoTest.java" index="17">
+<position info="not_deleted" x="929" y="0"/>
+</item>
+<item historyLabel="AuthorityFilterTest.java" index="19">
+<position info="not_deleted" x="72" y="0"/>
+</item>
+<item historyLabel="AuthorityServiceTest.java" index="20">
+<position info="not_deleted" x="725" y="0"/>
+</item>
+<item historyLabel="AuthorityServiceTest2.java" index="21">
+<position info="not_deleted" x="1511" y="0"/>
+</item>
+<item historyLabel="home.jsp" index="22"/>
+<item historyLabel="web.xml" index="23"/>
+<item historyLabel="config.xml" index="24">
+<position info="not_deleted" x="40" y="0"/>
+</item>
+<item historyLabel="AuthorityServiceTest2.java" index="21">
+<position info="not_deleted" x="1500" y="0"/>
+</item>
+<item historyLabel="AuthorityServiceTest.java" index="20">
+<position info="not_deleted" x="725" y="0"/>
+</item>
+<item historyLabel="home.js" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="event_bubble.html" index="26"/>
+<item historyLabel="jquery-1.9.1.js" index="27">
+<position info="not_deleted" x="306" y="0"/>
+</item>
+<item historyLabel="event_bubble.html" index="26"/>
+<item historyLabel="html_dispatcher.html" index="28"/>
+<item historyLabel="pom.properties" index="29"/>
+<item historyLabel="MyREST_Maven.war" index="30">
+<position info="not_deleted" x="724" y="0"/>
+</item>
+<item historyLabel="pom.properties" index="29"/>
+<item active="true" historyLabel="html_dispatcher.html" index="28"/>
+</navigationHistory>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="MyREST_Maven.war" tooltip="prac4/src/target/MyREST_Maven.war">
+<persistable path="/prac4/src/target/MyREST_Maven.war"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.jboss.tools.common.propertieseditor.PropertiesCompoundEditor" name="pom.properties" tooltip="prac4/src/target/maven-archiver/pom.properties">
+<persistable path="/prac4/src/target/maven-archiver/pom.properties"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" name="html_dispatcher.html" tooltip="prac4/src/src/main/webapp/WEB-INF/html/html_dispatcher.html">
+<persistable path="/prac4/src/src/main/webapp/WEB-INF/html/html_dispatcher.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="jquery-1.9.1.js" tooltip="prac4/src/js/jquery-1.9.1.js">
+<persistable path="/prac4/src/js/jquery-1.9.1.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.html" name="event_bubble.html" tooltip="prac4/src/html/event_bubble.html">
+<persistable path="/prac4/src/html/event_bubble.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="home.js" tooltip="prac4/src/js/home.js">
+<persistable path="/prac4/src/js/home.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="config.xml" tooltip="prac4/src/target/MyREST_Maven/WEB-INF/classes/config.xml">
+<persistable path="/prac4/src/target/MyREST_Maven/WEB-INF/classes/config.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="web.xml" tooltip="prac4/src/target/MyREST_Maven/WEB-INF/web.xml">
+<persistable path="/prac4/src/target/MyREST_Maven/WEB-INF/web.xml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="home.jsp" tooltip="prac4/src/target/MyREST_Maven/WEB-INF/jsp/home.jsp">
+<persistable path="/prac4/src/target/MyREST_Maven/WEB-INF/jsp/home.jsp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorityServiceTest2.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest2.java">
+<persistable path="/prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorityServiceTest.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest.java">
+<persistable path="/prac4/src/src/test/java/niuzhixiang/test/service/AuthorityServiceTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AuthorityFilterTest.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/filter/AuthorityFilterTest.java">
+<persistable path="/prac4/src/src/test/java/niuzhixiang/test/filter/AuthorityFilterTest.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Utils.java" tooltip="prac4/src/src/main/java/niuzhixiang/util/Utils.java">
+<persistable path="/prac4/src/src/main/java/niuzhixiang/util/Utils.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserDaoTest.java" tooltip="prac4/src/src/test/java/niuzhixiang/test/dao/UserDaoTest.java">
+<persistable path="/prac4/src/src/test/java/niuzhixiang/test/dao/UserDaoTest.java"/>
+</file>
+</mruList>
+</workbench>

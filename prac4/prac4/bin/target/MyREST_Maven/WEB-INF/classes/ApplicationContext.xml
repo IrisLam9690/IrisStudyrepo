@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:beans="http://cxf.apache.org/configuration/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:core="http://cxf.apache.org/core"
+	xmlns:jaxrs="http://cxf.apache.org/jaxrs"
+	xmlns:jaxws="http://cxf.apache.org/jaxws"
+	xmlns:jms="http://www.springframework.org/schema/jms"
+	xmlns:clustering="http://cxf.apache.org/clustering"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	xsi:schemaLocation="http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd
+		http://www.springframework.org/schema/jms http://www.springframework.org/schema/jms/spring-jms-3.0.xsd
+		http://cxf.apache.org/clustering http://cxf.apache.org/schemas/clustering.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd
+		http://cxf.apache.org/transports/jms http://cxf.apache.org/schemas/configuration/jms.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd
+		http://cxf.apache.org/configuration/beans http://cxf.apache.org/schemas/configuration/cxf-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+		http://cxf.apache.org/core http://cxf.apache.org/schemas/core.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+		http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+
+	<import resource="classpath:META-INF/cxf/cxf.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-servlet.xml" />
+	<import resource="classpath:META-INF/cxf/cxf-extension-javascript-client.xml" />
+	
+	<!-- 配置web service -->
+	<jaxrs:server id="MyREST_Maven" address="/">
+		<jaxrs:serviceBeans>
+			<ref bean="AuthorityService" />
+			<ref bean="HomeService" />
+			<ref bean="ItemService" />
+			<ref bean="UploadService" />
+			<ref bean="HtmlDispatcherService" />
+		</jaxrs:serviceBeans>
+		<jaxrs:extensionMappings>
+			<entry key="json" value="application/json" />
+			<entry key="xml" value="application/xml" />
+		</jaxrs:extensionMappings>
+		<jaxrs:providers>
+			<ref bean="ViewDispatcher" />
+		</jaxrs:providers>
+	</jaxrs:server>
+	
+	
+	<!-- CXF的请求转发器，根据请求所返回的资源类型转发到相应的页面，资源类型可以是一个类、一个枚举元素
+		或者一个请求的URI。
+	 -->
+	<bean id="ViewDispatcher" class="org.apache.cxf.jaxrs.provider.RequestDispatcherProvider">
+		<property name="dispatcherName" value="jsp" />
+		<property name="saveParametersAsAttributes" value="true"></property>
+		<property name="logRedirects" value="true"/>
+		<property name="classResources">
+			<map>
+				<entry key="niuzhixiang.bean.IndexBean" value="/WEB-INF/jsp/index.jsp" />
+				<entry key="niuzhixiang.bean.RegisterBean" value="/WEB-INF/jsp/register.jsp" />
+				<entry key="niuzhixiang.bean.HomeBeanPC" value="/WEB-INF/jsp/home.jsp" />
+				<entry key="niuzhixiang.bean.Files" value="/WEB-INF/jsp/uploads.jsp" />
+				<entry key="niuzhixiang.bean.HtmlDispatcherBean" value="/WEB-INF/html/html_dispatcher.html" />
+				<!-- <entry key="niuzhixiang.global.Status$REGISTER_SUCCESS" value="/WEB-INF/jsp/registerdone.jsp" /> --> 
+			</map>
+		</property>
+
+		<property name="enumResources">
+			<map>
+				<entry key="niuzhixiang.bean.Steps.STEP1" value="/WEB-INF/jsp/step1.jsp"></entry>
+				<entry key="niuzhixiang.bean.Steps.STEP2" value="/WEB-INF/jsp/step2.jsp"></entry>
+			</map>
+		</property>
+		<!-- <property name="enumResources">
+            <map>
+              <entry> 
+                 <key>
+                    <util:constant static-field="niuzhixiang.global.Status.REGISTER_SUCCESS"/>
+                 </key> 
+                 <value>/WEB-INF/jsp/register_success.jsp</value>
+              </entry>
+              <entry> 
+                 <key>
+                    <util:constant static-field="niuzhixiang.global.Status.REGISTER_SERVER_ERROR"/>
+                 </key> 
+                 <value>/WEB-INF/jsp/register_fail.jsp</value>
+              </entry> 
+            </map>
+         </property> -->
+
+		<!-- <property name="resourcePaths">
+			<map>
+				<entry key="/MyREST/registerdone1" value="/WEB-INF/jsp/test.jsp" />
+			</map>
+		</property> -->
+		
+		<property name="beanNames">
+			<map>
+				<entry key="niuzhixiang.bean.IndexBean" value="index" />
+				<entry key="niuzhixiang.bean.RegisterBean" value="register" />
+				<entry key="niuzhixiang.bean.HomeBeanPC" value="homepc" />
+				<entry key="niuzhixiang.bean.Files" value="files" />
+			</map>
+		</property>
+	</bean>
+	
+	<!-- 配置MongoDB（另一种配置方式） -->
+	<mongo:mongo id="mongo" replica-set="localhost:27017">  
+        <!-- 一些连接属性的设置 -->      
+		<!-- <mongo:options  
+             connections-per-host="${mongo.connectionsPerHost}"  
+             threads-allowed-to-block-for-connection-multiplier="${mongo.threadsAllowedToBlockForConnectionMultiplier}"  
+             connect-timeout="${mongo.connectTimeout}"  
+             max-wait-time="${mongo.maxWaitTime}"  
+             auto-connect-retry="${mongo.autoConnectRetry}"  
+             socket-keep-alive="${mongo.socketKeepAlive}"  
+             socket-timeout="${mongo.socketTimeout}"  
+             slave-ok="${mongo.slaveOk}"  
+             write-number="1"  
+             write-timeout="0"  
+             write-fsync="true"/>  -->         
+    </mongo:mongo>   
+	<mongo:mapping-converter id="mongoConverter"></mongo:mapping-converter>    
+	<mongo:db-factory dbname="myrest" mongo-ref="mongo"/> 	 
+	<bean id="MongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+       <constructor-arg name="mongoDbFactory" ref="mongoDbFactory"/>
+       <constructor-arg name="mongoConverter" ref="mongoConverter"/>
+	</bean>
+	
+	<!-- 配置MySQL：
+		必须要在Spring的配置文件里指定数据源，而不能在hibernate.cfg.xml里指定，否则
+		Spring会找不到数据源，在配置事务管理器的时候会报错（Cannot unwrap to requested type [javax.sql.DataSource]）
+		数据源有多种选择，这里采用Spring自带的。	
+	 -->
+	<bean id="DataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/myrest" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+	</bean>
+	
+	<!-- 配置SessionFactory，由于创建一个SessionFactory的代价很高昂，所以要放到Spring容器
+		中来管理，其属性包含一个数据源实例。
+	 -->
+ 	<bean id="HibernateSessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"> 
+		<!-- 这里的写法不需要引用hibernate.cfg.xml配置文件了 -->
+		<!-- <property name="configLocation" value="classpath:hibernate.cfg.xml" /> -->
+ 		<property name="dataSource" ref="DataSource" />
+		<property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
+                <prop key="hibernate.show_sql">true</prop> 
+            </props>
+        </property>
+        <property name="annotatedClasses"> 
+        	<list>
+            	<value>niuzhixiang.bean.UserBean</value> 
+            	<value>niuzhixiang.bean.ItemBean</value> 
+            	<value>niuzhixiang.bean.SchoolBean</value>
+            	<value>niuzhixiang.bean.DataBean</value>  
+            	<value>niuzhixiang.bean.FileBean</value>  
+            </list>
+        </property>  
+	</bean>
+	
+	<!-- 定义事务管理器，其属性包含一个SessionFactory实例 -->  
+ 	<bean id="TransactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="HibernateSessionFactory" />
+    </bean>
+    
+    <!-- 这个配置表明由注解@Transactional来驱动事务，要在工程中导入cglib.jar包 -->
+	<tx:annotation-driven/>
+	
+	<!-- 在Spring中配置这个bean可以启用@Autowired注解，就无需setter/getter来完成注入了 -->
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>  
+	
+	<!-- Spring管理的过滤器 -->
+	<bean id="AuthorityFilter" class="niuzhixiang.filter.AuthorityFilter"></bean> 
+	<bean id="AutoLogonFilter" class="niuzhixiang.filter.AutoLogonFilter"></bean> 
+	
+	<!-- Spring管理的bean -->
+	<bean id="Multipart" class="niuzhixiang.util.Multipart"></bean> 
+	
+	<bean id="UserDao" class="niuzhixiang.dao.UserDao"></bean> 	
+	<bean id="ItemDao" class="niuzhixiang.dao.ItemDao"></bean>
+	<bean id="SchoolDao" class="niuzhixiang.dao.SchoolDao"></bean>  
+	<bean id="DataDao" class="niuzhixiang.dao.DataDao"></bean> 
+	<bean id="FileDao" class="niuzhixiang.dao.FileDao"></bean> 
+	
+	<bean id="AuthorityService" class="niuzhixiang.service.AuthorityService"></bean> 
+	<bean id="HomeService" class="niuzhixiang.service.HomeService"></bean> 
+	<bean id="ItemService" class="niuzhixiang.service.ItemService"></bean>
+	<bean id="UploadService" class="niuzhixiang.service.UploadService"></bean>
+	<bean id="HtmlDispatcherService" class="niuzhixiang.service.HtmlDispatcherService"></bean>
+	
+</beans>

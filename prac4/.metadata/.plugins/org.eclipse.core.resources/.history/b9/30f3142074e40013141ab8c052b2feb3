@@ -1,0 +1,146 @@
+package niuzhixiang.service;
+
+
+import java.net.URI;
+import java.net.URISyntaxException;
+
+import javax.annotation.Resource;
+import javax.ws.rs.CookieParam;
+import javax.ws.rs.FormParam;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.NewCookie;
+import javax.ws.rs.core.Response;
+
+import com.sun.istack.logging.Logger;
+
+import niuzhixiang.bean.IndexBean;
+import niuzhixiang.bean.ListContainer;
+import niuzhixiang.bean.RegisterBean;
+import niuzhixiang.bean.SchoolBean;
+import niuzhixiang.bean.UserBean;
+import niuzhixiang.bean.mongo.LogonSession;
+import niuzhixiang.dao.SchoolDao;
+import niuzhixiang.dao.UserDao;
+
+@Path("/")
+public class AuthorityService {
+	
+	Logger logger = Logger.getLogger(AuthorityService.class);
+
+	//利用注解来注入
+	@Resource(name = "UserDao")
+	private UserDao userDao;
+	@Resource(name = "SchoolDao")
+	private SchoolDao schoolDao;
+	
+	public UserDao getUserDao() {
+		return userDao;
+	}
+
+	public void setUserDao(UserDao userDao) {
+		this.userDao = userDao;
+	}
+
+	public SchoolDao getSchoolDao() {
+		return schoolDao;
+	}
+
+	public void setSchoolDao(SchoolDao schoolDao) {
+		this.schoolDao = schoolDao;
+	}
+
+	@GET
+	@Path("/")
+	@Produces({ "application/json", "application/xml", "text/html" })
+	public Response index() {
+		return Response.ok(new IndexBean()).build();
+	}
+	
+	@GET
+	@Path("/register")
+	@Produces({ "application/json", "application/xml", "text/html" })
+	public Response register() {
+		RegisterBean registerBean = new RegisterBean();
+		ListContainer<SchoolBean> schools = new ListContainer<SchoolBean>();
+		schools.setList(getSchoolDao().readAll());
+		registerBean.setSchools(schools);
+		return Response.ok(registerBean).build();
+	}
+	
+	@POST
+	@Path("/register")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response doRegister(@FormParam("username") String username, @FormParam("email") String email, @FormParam("password") String password, @FormParam("schoolid") String schoolid) {
+		try {
+			String result = this.userDao.save(username, email, password, Integer.parseInt(schoolid));
+			if (result.equals("register_success")) {
+				return Response.ok().status(200).build();
+			} else if (result.equals("user_exists")) {
+				return Response.ok().status(400).build();
+			} else {
+				return Response.ok().status(500).build();
+			}		
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			return Response.ok().status(500).build();
+		}		
+	}
+	
+	@POST
+	@Path("/logon")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response logon(@FormParam("username") String username, @FormParam("password") String password, @FormParam("source") String source) {
+		try {
+			logger.info("request source is " + source);
+			UserBean userBean = userDao.checkUser(username, password);
+			//用户不存在，即用户名或密码错误
+			if (userBean == null) {
+				return Response.ok().status(400).build();
+			} 
+			//用户存在，进行登录
+			else {
+				LogonSession logonSession = userDao.createLogonSession(userBean);
+				NewCookie useridCookie = new NewCookie("userid", String.valueOf(logonSession.getUserid())); 
+				NewCookie sessionidCookie = new NewCookie("sessionid", logonSession.getSessionid());
+				//如果请求来源是PC网页
+				if (source.equals("pc")) {
+					/*
+					 * 这里不用302状态代码，因为浏览器会自动截获302响应并自动进行重定向，AJAX将无法解析响应头，而且AJAX自身
+					 * 只负责发送和接收数据，并无跳转页面的功能，需要采用window.location.href的方式手动编写。
+					 */
+					return Response.ok().status(200).location(new URI("/user/" + userBean.getId().toString())).cookie(useridCookie, sessionidCookie).build();
+				}
+				//如果请求来源是移动端
+				else if (source.equals("mobile")) {
+					return Response.ok().status(302).location(new URI("/user/mobile/" + userBean.getId().toString())).cookie(useridCookie, sessionidCookie).build();
+				} else {
+					return Response.ok().status(200).build();
+				}
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			return Response.ok().status(500).build();
+		}
+	}
+	
+	@GET
+	@Path("/logout")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Response logout(@CookieParam("userid") int userid) {
+		try {
+			userDao.deleteLogonSession(userid);
+			return Response.ok().status(302).location(new URI("/")).build();
+		} catch (URISyntaxException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+			return Response.ok().status(500).build();
+		}
+	}
+	
+}
